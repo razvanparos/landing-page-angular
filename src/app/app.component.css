@@ -1,0 +1,25 @@
+div{
+    padding: 30px;
+
+}
+
+
+img{
+    margin-top: 100px;
+    width: 100%
+    
+    
+}
+
+@media  (min-width:1230px) {
+    img{
+        width: 70%;
+        display: block;
+        margin: 100px auto;
+       
+    }
+    
+}
+
+
+

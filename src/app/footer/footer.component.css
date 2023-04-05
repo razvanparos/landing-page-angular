@@ -1,0 +1,126 @@
+.footer-container{
+    margin-top: 200px;
+
+}
+img{
+    width: 100vw;
+    display: block;
+}
+h1{
+    font-size: 1.2rem;
+}
+.pp{
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: var(--VeryDarkCyan);
+    padding: 30px;
+    padding-bottom: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.desktop{
+    display: none;
+}
+.email{
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 1.3rem;
+}
+.email:focus{
+    border: 0px;
+    outline: 0px;
+    padding-left: 20px;
+}
+.submit{
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    border: 0px;
+    background-color: var(--Pink);
+    color: white;
+    max-width: 200px;
+    position:relative;
+    left: 60%;
+    cursor: pointer;
+
+}
+.submit:hover{
+    background-color: var(--LightPink);
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    max-width: 500px;
+}
+
+.contact{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.logo-footer{
+    filter:brightness(0) invert(1);
+    width: 60%;
+    max-width: 300px;
+}
+.phone, .gmail{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.phone img{
+    width: 30px;
+    margin-right: 15px;
+}
+.gmail img{
+    width: 30px;
+    margin-right: 15px;
+}
+.contact p {
+    max-width: 400px;
+}
+.socials{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 15px;
+    width: 30px;
+    filter: invert(1);
+}
+.socials img{
+    cursor: pointer;
+}
+
+@media (min-width:1024px){
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    .footer{
+        padding: 0px 60px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (min-width:1560px){
+   
+    .footer{
+        padding: 0px 250px;
+        padding-bottom: 100px;
+        
+    }
+}

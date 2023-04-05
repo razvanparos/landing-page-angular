@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --LightPink: hsl(321, 100%, 78%);
+    --LightRed: hsl(0, 100%, 63%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --VeryPaleBlue: hsl(210, 50%, 94%);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif ;
+}
+
+body{
+    overflow-x: hidden;
+}

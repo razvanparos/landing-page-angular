@@ -1,0 +1,29 @@
+.main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8rem;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: var(--VeryDarkCyan);
+}
+p{
+    text-align: center;
+    color: gray;
+   
+}
+
+@media (min-width:610px){
+    .main {
+        flex-direction: row;
+        column-gap: 20%;
+        
+    }
+    .main div {
+        scale: 1.6;
+    }
+}
